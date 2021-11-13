@@ -1,0 +1,30 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "Clean Blog Project with Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafadurmaz/CleanBlog.git"
+  },
+  "keywords": [
+    "clean",
+    "blog"
+  ],
+  "author": "Mustafa Durmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafadurmaz/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/mustafadurmaz/CleanBlog#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
